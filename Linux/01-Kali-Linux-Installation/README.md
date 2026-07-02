@@ -42,7 +42,7 @@ Successfully installed Kali Linux inside VMware.
 
 ## Screenshots
 
-screenshots inside the screenshots folder.
+screenshots inside the folder.
 
 
 ---
