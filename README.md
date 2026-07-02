@@ -22,27 +22,6 @@ My goal is to move beyond theory by building practical experience in cybersecuri
 
 ---
 
-## Repository Structure
-
-Cybersecurity-Labs/
-│
-├── Networking/
-├── Linux/
-├── Windows/
-├── Nmap/
-├── Wireshark/
-├── Burp-Suite/
-├── OWASP-Top-10/
-├── Web-Security/
-├── Wazuh/
-├── Splunk/
-├── AWS/
-├── Active-Directory/
-├── TryHackMe/
-├── Home-Lab/
-└── Notes/
-
-
 ## Technologies & Tools
 
 * Kali Linux
