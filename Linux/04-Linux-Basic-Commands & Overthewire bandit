@@ -1,0 +1,177 @@
+# Linux Basic Commands & OverTheWire Bandit Practice
+
+## Overview
+
+This lab documents my hands-on practice with Linux command-line fundamentals as part of my cybersecurity learning journey. Rather than focusing only on theory, I practiced each command inside my Kali Linux home lab and reinforced the concepts by solving challenges on OverTheWire Bandit.
+
+The objective of this lab was to become comfortable with Linux navigation, file handling, text processing, and basic command-line operations that are essential for Ethical Hacking, SOC Operations, Penetration Testing, and Cloud Security.
+
+---
+
+# Objectives
+
+* Build a strong foundation in Linux.
+* Learn essential Linux commands used in cybersecurity.
+* Understand file and directory management.
+* Practice searching, filtering, and processing data.
+* Strengthen problem-solving skills through OverTheWire Bandit.
+
+
+# Lab Environment
+
+| Component         | Details            |
+| ----------------- | ------------------ |
+| Host OS           | Windows            |
+| Virtualization    | VMware Workstation |
+| Guest OS          | Kali Linux         |
+| Practice Platform | OverTheWire Bandit |
+| Terminal          | Bash               |
+
+---
+
+# Commands Practiced
+
+| Command       | Purpose                                    |                                         |
+| ------------- | ------------------------------------------ | --------------------------------------- |
+| `ls`          | List files and directories                 |                                         |
+| `cd`          | Change directory                           |                                         |
+| `pwd`         | Display current working directory          |                                         |
+| `cat`         | Display file contents                      |                                         |
+| `find`        | Search files and directories               |                                         |
+| `file`        | Identify file type                         |                                         |
+| `grep`        | Search text using patterns                 |                                         |
+| `sort`        | Sort data                                  |                                         |
+| `uniq`        | Display unique lines                       |                                         |
+| `strings`     | Extract readable strings from binary files |                                         |
+| `base64`      | Encode and decode Base64 data              |                                         |
+| `             | ` (Pipe)                                   | Pass output from one command to another |
+| `2>/dev/null` | Suppress error messages                    |                                         |
+
+
+# Sample Commands
+
+```bash
+pwd
+
+ls -la
+
+cd Documents
+
+cat notes.txt
+
+find / -name password.txt
+
+file data.bin
+
+grep "root" /etc/passwd
+
+sort users.txt
+
+uniq users.txt
+
+strings binaryfile
+
+echo "SGVsbG8=" | base64 -d
+
+find / -name "*.txt" 2>/dev/null
+
+
+# Practical Exercise
+
+## OverTheWire Bandit
+
+Successfully completed:
+
+* Bandit Level 0
+* Bandit Level 1
+* Bandit Level 2
+* Bandit Level 3
+* Bandit Level 4
+* Bandit Level 5
+* Bandit Level 6
+* Bandit Level 7
+* Bandit Level 8
+* Bandit Level 9
+* Bandit Level 10
+
+The Bandit challenges helped reinforce practical Linux skills by requiring the use of real command-line tools to locate files, inspect data, decode information, and solve progressively difficult tasks.
+
+
+# Key Learnings
+
+Through this lab I learned how to:
+
+* Navigate the Linux file system efficiently.
+* Read and inspect different file types.
+* Search for files using the terminal.
+* Search and filter text with grep.
+* Sort and process command output.
+* Extract readable information from binary files.
+* Decode Base64 encoded data.
+* Combine multiple commands using pipes.
+* Hide unnecessary terminal errors using redirection.
+* Apply Linux commands in real cybersecurity scenarios.
+
+
+# Interview Notes
+
+### Base64
+
+If a question contains terms such as:
+
+* Base64 encoded
+* Decode this string
+* Encoded data
+* Convert Base64 to original text
+
+The first approach should be:
+
+base64 -d
+
+
+Remember:
+
+* `base64` is used for encoding and decoding data.
+* `-d` is used to decode Base64 encoded content.
+* Base64 is **not encryption**; it only changes the representation of data.
+
+
+
+# Screenshots
+
+ screenshots such as:
+
+* Kali Linux terminal
+* Command execution
+* OverTheWire Bandit progress
+* Successful level completion
+* Base64 decoding example
+
+# Skills Practiced
+
+* Linux
+* Bash
+* Linux Command Line
+* File System Navigation
+* Text Processing
+* Data Searching
+* Base64 Encoding & Decoding
+* Problem Solving
+* Capture The Flag (CTF)
+* Cybersecurity Fundamentals
+
+# Next Learning Goals
+
+* Linux File Permissions
+* Users & Groups
+* File Ownership
+* Process Management
+* Networking Commands
+* SSH
+* Cron Jobs
+* Bash Scripting
+
+
+# Summary
+
+This lab strengthened my Linux fundamentals through practical exercises in my home lab and by solving OverTheWire Bandit challenges up to Level 10. These skills form the foundation for advanced topics in Ethical Hacking, Security Operations (SOC), Cloud Security, and Penetration Testing.
